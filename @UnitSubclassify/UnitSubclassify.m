@@ -480,7 +480,7 @@ classdef UnitSubclassify < matlab.apps.AppBase
                 if find(ismember(allowable,varargin{v}))
                     app.Settings.(varargin{v}) = varargin{v+1};
                 else
-                    disp([9 'Not assigning ''' varargin{v} ''': not a property of SplitMerge class']);
+                    disp([9 'Not assigning ''' varargin{v} ''': not a property of UnitSubclassify class']);
                 end
             end
             
